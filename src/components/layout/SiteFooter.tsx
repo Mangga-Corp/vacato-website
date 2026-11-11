@@ -10,7 +10,7 @@ export function SiteFooter() {
 
   return (
     <footer className="border-t border-border bg-bg py-12">
-      <Container className="flex flex-col gap-10 md:flex-row md:items-start md:justify-between">
+      <Container className="flex flex-col items-start gap-10 md:flex-row md:justify-between">
         <div className="max-w-sm">
           <p className="text-h3">{site.name}</p>
           <p className="mt-2 text-small text-text-muted">{t.common.footer.tagline}</p>
