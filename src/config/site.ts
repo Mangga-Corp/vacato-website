@@ -1,7 +1,7 @@
 // Non-text configuration. Fill the empty values once you have them.
 export const site = {
-  name: 'Vacato',
-  developer: 'Vacato',
+  name: 'Poto',
+  developer: 'Poto',
   /** Support email. Leave empty until ready: the UI shows a "coming soon" state. */
   supportEmail: '',
   /** App Store URL. Leave empty to show "Coming soon". */
@@ -9,7 +9,7 @@ export const site = {
   /** Apple App ID (digits only). When set, adds the Smart App Banner meta tag. */
   appleAppId: '',
   /** Production origin, no trailing slash. */
-  siteUrl: 'https://vacato.vercel.app',
+  siteUrl: 'https://poto.vercel.app',
   appVersion: '1.3',
   minIosVersion: '26.0',
   /** ISO date (YYYY-MM-DD) of the last privacy policy revision. */

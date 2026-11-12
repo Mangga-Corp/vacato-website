@@ -1,6 +1,6 @@
-# Vacato website
+# Poto website
 
-Frontend-only marketing, support and privacy site for the Vacato iOS app (Vite + React 19 + TypeScript + Tailwind v4). Bilingual (English default, Bahasa Indonesia) with System / Light / Dark themes. No backend: contact is `mailto:` only.
+Frontend-only marketing, support and privacy site for the Poto iOS app (Vite + React 19 + TypeScript + Tailwind v4). Bilingual (English default, Bahasa Indonesia) with System / Light / Dark themes. No backend: contact is `mailto:` only.
 
 ## Run
 
@@ -44,12 +44,12 @@ In `src/config/site.ts` fill `supportEmail`, `appStoreUrl`, `appleAppId`. Until 
 
 ## Deploy to Vercel
 
-Import the repo in Vercel (framework: Vite, build `npm run build`, output `dist`). `vercel.json` rewrites every route to `index.html`. Set the domain to `vacato.vercel.app`. If it differs, update `siteUrl` in `site.ts`, `public/robots.txt` and `public/sitemap.xml`.
+Import the repo in Vercel (framework: Vite, build `npm run build`, output `dist`). `vercel.json` rewrites every route to `index.html`. Set the domain to `poto.vercel.app`. If it differs, update `siteUrl` in `site.ts`, `public/robots.txt` and `public/sitemap.xml`.
 
 ## URLs for App Store Connect
 
 | Field              | English                             | Bahasa Indonesia                       |
 | ------------------ | ----------------------------------- | -------------------------------------- |
-| Marketing URL      | `https://vacato.vercel.app/`        | `https://vacato.vercel.app/id`         |
-| Support URL        | `https://vacato.vercel.app/support` | `https://vacato.vercel.app/id/support` |
-| Privacy Policy URL | `https://vacato.vercel.app/privacy` | `https://vacato.vercel.app/id/privacy` |
+| Marketing URL      | `https://poto.vercel.app/`        | `https://poto.vercel.app/id`         |
+| Support URL        | `https://poto.vercel.app/support` | `https://poto.vercel.app/id/support` |
+| Privacy Policy URL | `https://poto.vercel.app/privacy` | `https://poto.vercel.app/id/privacy` |

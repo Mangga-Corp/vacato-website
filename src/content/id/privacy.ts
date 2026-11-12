@@ -4,7 +4,7 @@ import type { PrivacyContent } from '../types'
 export const privacy = {
   title: 'Kebijakan Privasi',
   intro:
-    'Kebijakan ini menjelaskan apa yang dilakukan Vacato terhadap informasi Anda. Singkatnya: foto Anda dianalisis di iPhone dan tidak dikirim kepada kami maupun pihak lain.',
+    'Kebijakan ini menjelaskan apa yang dilakukan Poto terhadap informasi Anda. Singkatnya: foto Anda dianalisis di iPhone dan tidak dikirim kepada kami maupun pihak lain.',
   tocLabel: 'Di halaman ini',
   highlights: [
     {
@@ -29,24 +29,24 @@ export const privacy = {
       title: 'Ringkasan',
       icon: 'shield-check',
       paragraphs: [
-        'Vacato tidak memiliki akun, server, iklan, analitik, maupun pelacakan. Kami tidak mengumpulkan data pribadi Anda. Semua yang dipelajari aplikasi dari foto Anda tetap berada di perangkat Anda.',
+        'Poto tidak memiliki akun, server, iklan, analitik, maupun pelacakan. Kami tidak mengumpulkan data pribadi Anda. Semua yang dipelajari aplikasi dari foto Anda tetap berada di perangkat Anda.',
       ],
     },
     {
       title: 'Siapa kami',
       icon: 'user',
       paragraphs: [
-        'Vacato dikembangkan oleh tim Vacato. Dalam kebijakan ini, “kami” merujuk pada Vacato. Anda dapat menghubungi kami melalui bagian Kontak di bawah.',
+        'Poto dikembangkan oleh tim Poto. Dalam kebijakan ini, “kami” merujuk pada Poto. Anda dapat menghubungi kami melalui bagian Kontak di bawah.',
       ],
     },
     {
-      title: 'Apa yang diakses Vacato',
+      title: 'Apa yang diakses Poto',
       icon: 'key-round',
-      paragraphs: ['Vacato hanya meminta apa yang dibutuhkan, tepat saat dibutuhkan.'],
+      paragraphs: ['Poto hanya meminta apa yang dibutuhkan, tepat saat dibutuhkan.'],
       list: [
-        'Foto yang Anda pilih: foto-foto yang Anda jadikan referensi agar Vacato dapat mempelajari gaya Anda. Salinan berukuran lebih kecil disimpan di dalam aplikasi.',
+        'Foto yang Anda pilih: foto-foto yang Anda jadikan referensi agar Poto dapat mempelajari gaya Anda. Salinan berukuran lebih kecil disimpan di dalam aplikasi.',
         'Kamera: digunakan secara langsung untuk melihat pemandangan, mengenali orang yang akan difoto, dan memberi panduan. Gambar dari kamera tidak direkam maupun diunggah.',
-        'Pustaka Foto: digunakan untuk membaca foto referensi yang Anda pilih, menyimpan foto yang Anda ambil, menampilkannya di galeri Vacato, dan menghapusnya jika Anda memintanya.',
+        'Pustaka Foto: digunakan untuk membaca foto referensi yang Anda pilih, menyimpan foto yang Anda ambil, menampilkannya di galeri Poto, dan menghapusnya jika Anda memintanya.',
         'Sensor gerak: digunakan secara langsung untuk mengukur kemiringan ponsel Anda. Informasi ini tidak disimpan.',
         'Lokasi: tidak diminta dan tidak digunakan.',
       ],
@@ -62,22 +62,22 @@ export const privacy = {
       title: 'Di mana data Anda diproses',
       icon: 'smartphone',
       paragraphs: [
-        'Seluruh analisis dan panduan kamera berjalan di iPhone Anda. Vacato tidak mengirim foto Anda, hasil analisisnya, maupun gambar dari kamera ke server mana pun.',
-        'Jika foto yang Anda pilih tersimpan di iCloud Photos dan belum ada di iPhone, iOS dapat mengunduhnya dari iCloud agar bisa digunakan Vacato. Proses ini ditangani oleh sistem Foto Apple di perangkat Anda.',
+        'Seluruh analisis dan panduan kamera berjalan di iPhone Anda. Poto tidak mengirim foto Anda, hasil analisisnya, maupun gambar dari kamera ke server mana pun.',
+        'Jika foto yang Anda pilih tersimpan di iCloud Photos dan belum ada di iPhone, iOS dapat mengunduhnya dari iCloud agar bisa digunakan Poto. Proses ini ditangani oleh sistem Foto Apple di perangkat Anda.',
       ],
     },
     {
       title: 'Pihak ketiga',
       icon: 'users',
       paragraphs: [
-        'Vacato tidak menyertakan alat iklan, analitik, pelaporan error, maupun pelacakan, dan tidak membagikan informasi Anda kepada pihak ketiga. Vacato juga tidak memiliki backend yang kami kelola.',
+        'Poto tidak menyertakan alat iklan, analitik, pelaporan error, maupun pelacakan, dan tidak membagikan informasi Anda kepada pihak ketiga. Poto juga tidak memiliki backend yang kami kelola.',
       ],
     },
     {
       title: 'Berapa lama data disimpan',
       icon: 'clock',
       paragraphs: [
-        'Foto referensi dan hasil pelajaran Vacato darinya tetap berada di iPhone Anda sampai Anda menghapus gaya tersebut atau menghapus aplikasinya. Foto yang Anda ambil tetap berada di pustaka Foto sampai Anda menghapusnya. Galeri Vacato menyimpan daftar kecil untuk menandai foto mana yang berasal dari aplikasi, dan memperbaruinya saat foto dihapus.',
+        'Foto referensi dan hasil pelajaran Poto darinya tetap berada di iPhone Anda sampai Anda menghapus gaya tersebut atau menghapus aplikasinya. Foto yang Anda ambil tetap berada di pustaka Foto sampai Anda menghapusnya. Galeri Poto menyimpan daftar kecil untuk menandai foto mana yang berasal dari aplikasi, dan memperbaruinya saat foto dihapus.',
       ],
     },
     {
@@ -86,8 +86,8 @@ export const privacy = {
       paragraphs: ['Anda selalu memegang kendali atas data Anda:'],
       list: [
         'Untuk menghapus sebuah gaya beserta foto referensinya, buka menu “…” pada kartu gaya lalu pilih Delete.',
-        'Untuk menghapus foto hasil jepretan, hapus dari galeri Vacato. Foto tersebut juga ikut terhapus dari pustaka Foto Anda.',
-        'Untuk menghapus semua yang disimpan Vacato di iPhone, hapus aplikasinya. Foto yang sudah tersimpan di pustaka Foto tetap ada sampai Anda menghapusnya.',
+        'Untuk menghapus foto hasil jepretan, hapus dari galeri Poto. Foto tersebut juga ikut terhapus dari pustaka Foto Anda.',
+        'Untuk menghapus semua yang disimpan Poto di iPhone, hapus aplikasinya. Foto yang sudah tersimpan di pustaka Foto tetap ada sampai Anda menghapusnya.',
       ],
     },
     {
@@ -101,7 +101,7 @@ export const privacy = {
       title: 'Perubahan pada kebijakan ini',
       icon: 'refresh',
       paragraphs: [
-        'Jika cara Vacato menangani data berubah, kami akan memperbarui halaman ini beserta tanggal “Terakhir diperbarui”.',
+        'Jika cara Poto menangani data berubah, kami akan memperbarui halaman ini beserta tanggal “Terakhir diperbarui”.',
       ],
     },
     {

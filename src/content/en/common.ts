@@ -2,10 +2,10 @@ import type { CommonContent } from '../types'
 
 export const common = {
   skipToContent: 'Skip to content',
-  appIconAlt: 'Vacato app icon',
+  appIconAlt: 'Poto app icon',
   nav: {
     ariaLabel: 'Main navigation',
-    homeAriaLabel: 'Vacato, go to home page',
+    homeAriaLabel: 'Poto, go to home page',
     features: 'Features',
     support: 'Support',
     privacy: 'Privacy',
@@ -28,10 +28,10 @@ export const common = {
   },
   appStore: {
     comingSoon: 'Coming soon to the App Store',
-    badgeAlt: 'Download Vacato on the App Store',
+    badgeAlt: 'Download Poto on the App Store',
   },
   phone: {
-    placeholderLabel: 'Vacato app screenshot',
+    placeholderLabel: 'Poto app screenshot',
   },
   footer: {
     navAriaLabel: 'Footer navigation',

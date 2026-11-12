@@ -20,14 +20,14 @@ export const support = {
     },
     feature: {
       title: 'Request a feature',
-      description: 'Have an idea that would make Vacato better? We’d love to hear it.',
+      description: 'Have an idea that would make Poto better? We’d love to hear it.',
       button: 'Request a feature',
     },
   },
   mailto: {
     bug: {
-      subject: 'Vacato bug report',
-      intro: 'Hi, I’d like to report a problem with Vacato.',
+      subject: 'Poto bug report',
+      intro: 'Hi, I’d like to report a problem with Poto.',
       appVersionLabel: 'App version',
       deviceLabel: 'iPhone model',
       osLabel: 'iOS version',
@@ -35,8 +35,8 @@ export const support = {
       stepsLabel: 'Steps to reproduce',
     },
     feature: {
-      subject: 'Vacato feature request',
-      intro: 'Hi, I have an idea for Vacato.',
+      subject: 'Poto feature request',
+      intro: 'Hi, I have an idea for Poto.',
       appVersionLabel: 'App version',
       ideaLabel: 'My idea',
       reasonLabel: 'Why it would help',
@@ -55,34 +55,34 @@ export const support = {
       {
         question: 'Are my photos uploaded anywhere?',
         answer:
-          'No. Vacato has no server and never uploads your photos. They are analyzed on your iPhone and stay there.',
+          'No. Poto has no server and never uploads your photos. They are analyzed on your iPhone and stay there.',
       },
       {
-        question: 'What does Vacato store on my iPhone?',
+        question: 'What does Poto store on my iPhone?',
         answer:
-          'A reduced-size copy of the reference photos you choose, and what Vacato learned from them (such as shot size and camera angle). The photos you take are saved to your Photos library, and Vacato keeps a small list so its gallery can show them. Vacato has no accounts.',
+          'A reduced-size copy of the reference photos you choose, and what Poto learned from them (such as shot size and camera angle). The photos you take are saved to your Photos library, and Poto keeps a small list so its gallery can show them. Poto has no accounts.',
       },
       {
         question: 'How do I delete my data?',
         answer:
-          'To remove a style and its reference photos, open the “…” menu on its card and choose Delete. To delete photos you took, delete them from the Vacato gallery, which also removes them from Photos. Deleting the app removes everything Vacato stored on your iPhone, but photos already saved in Photos stay until you delete them there.',
+          'To remove a style and its reference photos, open the “…” menu on its card and choose Delete. To delete photos you took, delete them from the Poto gallery, which also removes them from Photos. Deleting the app removes everything Poto stored on your iPhone, but photos already saved in Photos stay until you delete them there.',
       },
       {
         question: 'How do I turn camera access back on?',
         answer:
-          'Open the Settings app, find Vacato, and turn on Camera. You can also tap “Open Settings” on the “Camera Access Needed” screen.',
+          'Open the Settings app, find Poto, and turn on Camera. You can also tap “Open Settings” on the “Camera Access Needed” screen.',
       },
       {
         question: 'How do I turn photo access back on?',
         answer:
-          'Open Settings, find Vacato, tap Photos, and allow access. Vacato needs it to choose reference photos and to save the photos you take. If you gave access to selected photos only, tap “Add more” in the photo picker to include others.',
+          'Open Settings, find Poto, tap Photos, and allow access. Poto needs it to choose reference photos and to save the photos you take. If you gave access to selected photos only, tap “Add more” in the photo picker to include others.',
       },
       {
-        question: 'Does Vacato use my location?',
-        answer: 'No. This version of Vacato does not ask for or use your location.',
+        question: 'Does Poto use my location?',
+        answer: 'No. This version of Poto does not ask for or use your location.',
       },
       {
-        question: 'Does Vacato give lighting advice?',
+        question: 'Does Poto give lighting advice?',
         answer:
           'Not in this version. The guidance covers distance, phone height, and tilt, which are the things that change how a photo of you is framed.',
       },
@@ -92,7 +92,7 @@ export const support = {
           'Yes, the shutter always works. The green message appears when distance, height, and tilt all match your style. If it doesn’t appear, make sure the person is in view, follow the instruction on screen, and hold the phone steady for a moment.',
       },
       {
-        question: 'There are several people in view. Who does Vacato guide?',
+        question: 'There are several people in view. Who does Poto guide?',
         answer:
           'One person at a time. When more than one person is in view, tap the person you want to photograph. The others are dimmed.',
       },
@@ -111,7 +111,7 @@ export const support = {
         answer: 'No. There is nothing to sign up for or log in to.',
       },
       {
-        question: 'Does Vacato speak its instructions out loud?',
+        question: 'Does Poto speak its instructions out loud?',
         answer:
           'Not at the moment. Instructions appear as short text with animations and haptic feedback.',
       },
@@ -122,9 +122,9 @@ export const support = {
     intro: 'Most issues can be fixed with a few quick checks.',
     generalHeading: 'Try these first',
     generalSteps: [
-      'Close Vacato completely and open it again.',
+      'Close Poto completely and open it again.',
       'Make sure your iPhone is updated to the latest iOS.',
-      'In Settings, check that Vacato is allowed to use the Camera and Photos.',
+      'In Settings, check that Poto is allowed to use the Camera and Photos.',
       'Check that your iPhone has enough free storage.',
     ],
     specificHeading: 'Specific issues',
@@ -137,17 +137,17 @@ export const support = {
       {
         problem: '“We couldn’t finish your photo analysis.”',
         solution:
-          'Tap “Try again”. If it keeps happening, close and reopen Vacato. The analysis starts over.',
+          'Tap “Try again”. If it keeps happening, close and reopen Poto. The analysis starts over.',
       },
       {
         problem: 'A style can’t be used and says to edit its photos',
         solution:
-          'Open the “…” menu on the style card and choose Edit Photos. Add photos that show a person clearly, and Vacato will study them again.',
+          'Open the “…” menu on the style card and choose Edit Photos. Add photos that show a person clearly, and Poto will study them again.',
       },
       {
         problem: '“Camera Access Needed”',
         solution:
-          'Tap “Open Settings” and turn on Camera for Vacato. Return to the app and the camera will start.',
+          'Tap “Open Settings” and turn on Camera for Poto. Return to the app and the camera will start.',
       },
       {
         problem: '“Camera Not Available”',
@@ -157,12 +157,12 @@ export const support = {
       {
         problem: '“Photo Access Needed”, or a photo didn’t save',
         solution:
-          'Vacato can’t save to your library without photo access. Allow it in Settings and take the photo again.',
+          'Poto can’t save to your library without photo access. Allow it in Settings and take the photo again.',
       },
       {
         problem: '“Point back at the person”',
         solution:
-          'Vacato lost sight of the person for a moment. Aim the camera back at them and the guidance continues.',
+          'Poto lost sight of the person for a moment. Aim the camera back at them and the guidance continues.',
       },
       {
         problem: '“Couldn’t save the preference and its photos”',

@@ -20,14 +20,14 @@ export const support = {
     },
     feature: {
       title: 'Usulkan fitur',
-      description: 'Punya ide agar Vacato jadi lebih baik? Kami senang mendengarnya.',
+      description: 'Punya ide agar Poto jadi lebih baik? Kami senang mendengarnya.',
       button: 'Usulkan fitur',
     },
   },
   mailto: {
     bug: {
-      subject: 'Laporan bug Vacato',
-      intro: 'Halo, saya ingin melaporkan masalah pada Vacato.',
+      subject: 'Laporan bug Poto',
+      intro: 'Halo, saya ingin melaporkan masalah pada Poto.',
       appVersionLabel: 'Versi aplikasi',
       deviceLabel: 'Model iPhone',
       osLabel: 'Versi iOS',
@@ -35,8 +35,8 @@ export const support = {
       stepsLabel: 'Langkah untuk mereproduksi',
     },
     feature: {
-      subject: 'Usulan fitur Vacato',
-      intro: 'Halo, saya punya ide untuk Vacato.',
+      subject: 'Usulan fitur Poto',
+      intro: 'Halo, saya punya ide untuk Poto.',
       appVersionLabel: 'Versi aplikasi',
       ideaLabel: 'Ide saya',
       reasonLabel: 'Mengapa ini akan membantu',
@@ -55,34 +55,34 @@ export const support = {
       {
         question: 'Apakah foto saya diunggah ke suatu tempat?',
         answer:
-          'Tidak. Vacato tidak punya server dan tidak pernah mengunggah foto Anda. Foto dianalisis di iPhone dan tetap di sana.',
+          'Tidak. Poto tidak punya server dan tidak pernah mengunggah foto Anda. Foto dianalisis di iPhone dan tetap di sana.',
       },
       {
-        question: 'Apa saja yang disimpan Vacato di iPhone saya?',
+        question: 'Apa saja yang disimpan Poto di iPhone saya?',
         answer:
-          'Salinan berukuran lebih kecil dari foto referensi yang Anda pilih, beserta hasil pelajarannya (misalnya ukuran shot dan sudut kamera). Foto yang Anda ambil disimpan di aplikasi Foto, dan Vacato menyimpan daftar kecil agar galerinya bisa menampilkan foto-foto tersebut. Vacato tidak memakai akun.',
+          'Salinan berukuran lebih kecil dari foto referensi yang Anda pilih, beserta hasil pelajarannya (misalnya ukuran shot dan sudut kamera). Foto yang Anda ambil disimpan di aplikasi Foto, dan Poto menyimpan daftar kecil agar galerinya bisa menampilkan foto-foto tersebut. Poto tidak memakai akun.',
       },
       {
         question: 'Bagaimana cara menghapus data saya?',
         answer:
-          'Untuk menghapus sebuah gaya beserta foto referensinya, buka menu “…” pada kartunya lalu pilih Delete. Untuk menghapus foto hasil jepretan, hapus dari galeri Vacato, dan foto itu juga ikut terhapus dari aplikasi Foto. Menghapus aplikasi akan menghilangkan semua yang disimpan Vacato di iPhone, tetapi foto yang sudah tersimpan di aplikasi Foto tetap ada sampai Anda menghapusnya di sana.',
+          'Untuk menghapus sebuah gaya beserta foto referensinya, buka menu “…” pada kartunya lalu pilih Delete. Untuk menghapus foto hasil jepretan, hapus dari galeri Poto, dan foto itu juga ikut terhapus dari aplikasi Foto. Menghapus aplikasi akan menghilangkan semua yang disimpan Poto di iPhone, tetapi foto yang sudah tersimpan di aplikasi Foto tetap ada sampai Anda menghapusnya di sana.',
       },
       {
         question: 'Bagaimana cara mengaktifkan kembali izin kamera?',
         answer:
-          'Buka aplikasi Pengaturan (Settings), cari Vacato, lalu aktifkan Kamera (Camera). Anda juga bisa mengetuk “Open Settings” di layar “Camera Access Needed”.',
+          'Buka aplikasi Pengaturan (Settings), cari Poto, lalu aktifkan Kamera (Camera). Anda juga bisa mengetuk “Open Settings” di layar “Camera Access Needed”.',
       },
       {
         question: 'Bagaimana cara mengaktifkan kembali izin foto?',
         answer:
-          'Buka Pengaturan (Settings), cari Vacato, ketuk Foto (Photos), lalu izinkan akses. Vacato membutuhkannya untuk memilih foto referensi dan menyimpan foto yang Anda ambil. Jika Anda hanya mengizinkan foto tertentu, ketuk “Add more” di pemilih foto untuk menambah foto lain.',
+          'Buka Pengaturan (Settings), cari Poto, ketuk Foto (Photos), lalu izinkan akses. Poto membutuhkannya untuk memilih foto referensi dan menyimpan foto yang Anda ambil. Jika Anda hanya mengizinkan foto tertentu, ketuk “Add more” di pemilih foto untuk menambah foto lain.',
       },
       {
-        question: 'Apakah Vacato menggunakan lokasi saya?',
-        answer: 'Tidak. Versi Vacato ini tidak meminta maupun menggunakan lokasi Anda.',
+        question: 'Apakah Poto menggunakan lokasi saya?',
+        answer: 'Tidak. Versi Poto ini tidak meminta maupun menggunakan lokasi Anda.',
       },
       {
-        question: 'Apakah Vacato memberi saran soal pencahayaan?',
+        question: 'Apakah Poto memberi saran soal pencahayaan?',
         answer:
           'Belum di versi ini. Panduannya mencakup jarak, tinggi ponsel, dan kemiringan, yaitu hal-hal yang menentukan framing foto Anda.',
       },
@@ -92,7 +92,7 @@ export const support = {
           'Bisa, tombol shutter selalu berfungsi. Pesan hijau itu muncul ketika jarak, tinggi, dan kemiringan sudah sesuai dengan gaya Anda. Jika tidak muncul, pastikan orangnya terlihat di layar, ikuti instruksi yang tampil, lalu tahan ponsel dengan stabil sejenak.',
       },
       {
-        question: 'Ada beberapa orang di layar. Siapa yang dipandu Vacato?',
+        question: 'Ada beberapa orang di layar. Siapa yang dipandu Poto?',
         answer:
           'Satu orang dalam satu waktu. Jika ada lebih dari satu orang, ketuk orang yang ingin difoto. Orang lainnya akan diredupkan.',
       },
@@ -111,7 +111,7 @@ export const support = {
         answer: 'Tidak. Tidak ada pendaftaran maupun login.',
       },
       {
-        question: 'Apakah Vacato membacakan instruksinya dengan suara?',
+        question: 'Apakah Poto membacakan instruksinya dengan suara?',
         answer:
           'Untuk saat ini belum. Instruksi tampil sebagai teks singkat, lengkap dengan animasi dan getaran haptic.',
       },
@@ -122,9 +122,9 @@ export const support = {
     intro: 'Sebagian besar masalah bisa diatasi dengan beberapa pemeriksaan singkat.',
     generalHeading: 'Coba ini dulu',
     generalSteps: [
-      'Tutup Vacato sepenuhnya, lalu buka kembali.',
+      'Tutup Poto sepenuhnya, lalu buka kembali.',
       'Pastikan iPhone Anda sudah menggunakan iOS versi terbaru.',
-      'Di Pengaturan, periksa apakah Vacato diizinkan mengakses Kamera dan Foto.',
+      'Di Pengaturan, periksa apakah Poto diizinkan mengakses Kamera dan Foto.',
       'Pastikan penyimpanan iPhone Anda masih cukup.',
     ],
     specificHeading: 'Masalah tertentu',
@@ -137,17 +137,17 @@ export const support = {
       {
         problem: '“We couldn’t finish your photo analysis.”',
         solution:
-          'Ketuk “Try again”. Jika masih terjadi, tutup dan buka kembali Vacato. Analisis akan dimulai dari awal.',
+          'Ketuk “Try again”. Jika masih terjadi, tutup dan buka kembali Poto. Analisis akan dimulai dari awal.',
       },
       {
         problem: 'Sebuah gaya tidak bisa dipakai dan diminta untuk mengedit fotonya',
         solution:
-          'Buka menu “…” pada kartu gaya tersebut dan pilih Edit Photos. Tambahkan foto yang memperlihatkan orang dengan jelas, lalu Vacato akan mempelajarinya lagi.',
+          'Buka menu “…” pada kartu gaya tersebut dan pilih Edit Photos. Tambahkan foto yang memperlihatkan orang dengan jelas, lalu Poto akan mempelajarinya lagi.',
       },
       {
         problem: '“Camera Access Needed”',
         solution:
-          'Ketuk “Open Settings” dan aktifkan Kamera untuk Vacato. Kembali ke aplikasi, lalu kamera akan menyala.',
+          'Ketuk “Open Settings” dan aktifkan Kamera untuk Poto. Kembali ke aplikasi, lalu kamera akan menyala.',
       },
       {
         problem: '“Camera Not Available”',
@@ -157,12 +157,12 @@ export const support = {
       {
         problem: '“Photo Access Needed”, atau foto tidak tersimpan',
         solution:
-          'Vacato tidak bisa menyimpan ke pustaka foto tanpa izin. Izinkan akses di Pengaturan, lalu ambil fotonya lagi.',
+          'Poto tidak bisa menyimpan ke pustaka foto tanpa izin. Izinkan akses di Pengaturan, lalu ambil fotonya lagi.',
       },
       {
         problem: '“Point back at the person”',
         solution:
-          'Vacato sempat kehilangan jejak orangnya. Arahkan kamera kembali ke orang tersebut, dan panduan akan berlanjut.',
+          'Poto sempat kehilangan jejak orangnya. Arahkan kamera kembali ke orang tersebut, dan panduan akan berlanjut.',
       },
       {
         problem: '“Couldn’t save the preference and its photos”',

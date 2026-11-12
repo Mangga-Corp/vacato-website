@@ -4,7 +4,7 @@ import type { PrivacyContent } from '../types'
 export const privacy = {
   title: 'Privacy Policy',
   intro:
-    'This policy explains what Vacato does with your information. The short version: your photos are analyzed on your iPhone and are not sent to us or anyone else.',
+    'This policy explains what Poto does with your information. The short version: your photos are analyzed on your iPhone and are not sent to us or anyone else.',
   tocLabel: 'On this page',
   highlights: [
     {
@@ -29,24 +29,24 @@ export const privacy = {
       title: 'Summary',
       icon: 'shield-check',
       paragraphs: [
-        'Vacato does not have accounts, servers, advertising, analytics, or tracking. We do not collect your personal data. Everything the app learns from your photos stays on your device.',
+        'Poto does not have accounts, servers, advertising, analytics, or tracking. We do not collect your personal data. Everything the app learns from your photos stays on your device.',
       ],
     },
     {
       title: 'Who we are',
       icon: 'user',
       paragraphs: [
-        'Vacato is developed by the Vacato team. In this policy, “we” and “us” refer to Vacato. You can reach us through the Contact section below.',
+        'Poto is developed by the Poto team. In this policy, “we” and “us” refer to Poto. You can reach us through the Contact section below.',
       ],
     },
     {
-      title: 'What Vacato accesses',
+      title: 'What Poto accesses',
       icon: 'key-round',
-      paragraphs: ['Vacato only asks for what it needs, when it needs it.'],
+      paragraphs: ['Poto only asks for what it needs, when it needs it.'],
       list: [
-        'Photos you choose: the photos you pick as references, so Vacato can learn your style. A reduced-size copy is saved inside the app.',
+        'Photos you choose: the photos you pick as references, so Poto can learn your style. A reduced-size copy is saved inside the app.',
         'Camera: used live to see the scene, find the person to photograph, and give guidance. Camera images are not recorded or uploaded.',
-        'Photos library: used to read the reference photos you choose, to save the photos you take, to show them in the Vacato gallery, and to delete them if you ask.',
+        'Photos library: used to read the reference photos you choose, to save the photos you take, to show them in the Poto gallery, and to delete them if you ask.',
         'Motion sensors: used live to measure how your phone is tilted. This information is not stored.',
         'Location: not requested and not used.',
       ],
@@ -62,22 +62,22 @@ export const privacy = {
       title: 'Where your data is processed',
       icon: 'smartphone',
       paragraphs: [
-        'All analysis and camera guidance run on your iPhone. Vacato does not send your photos, the results of the analysis, or your camera images to any server.',
-        'If a photo you choose is stored in iCloud Photos and is not on your iPhone yet, iOS may download it from iCloud so Vacato can use it. This is handled by Apple’s Photos system on your device.',
+        'All analysis and camera guidance run on your iPhone. Poto does not send your photos, the results of the analysis, or your camera images to any server.',
+        'If a photo you choose is stored in iCloud Photos and is not on your iPhone yet, iOS may download it from iCloud so Poto can use it. This is handled by Apple’s Photos system on your device.',
       ],
     },
     {
       title: 'Third parties',
       icon: 'users',
       paragraphs: [
-        'Vacato does not include advertising, analytics, crash reporting, or tracking tools, and does not share your information with third parties. Vacato does not have a backend that we operate.',
+        'Poto does not include advertising, analytics, crash reporting, or tracking tools, and does not share your information with third parties. Poto does not have a backend that we operate.',
       ],
     },
     {
       title: 'How long data is kept',
       icon: 'clock',
       paragraphs: [
-        'Reference photos and what Vacato learned from them stay on your iPhone until you delete the style or delete the app. Photos you take stay in your Photos library until you delete them. Vacato’s gallery keeps a small list of which photos came from the app, and updates it when photos are removed.',
+        'Reference photos and what Poto learned from them stay on your iPhone until you delete the style or delete the app. Photos you take stay in your Photos library until you delete them. Poto’s gallery keeps a small list of which photos came from the app, and updates it when photos are removed.',
       ],
     },
     {
@@ -86,8 +86,8 @@ export const privacy = {
       paragraphs: ['You are in control of your data at all times:'],
       list: [
         'To delete a style and its reference photos, open the “…” menu on the style card and choose Delete.',
-        'To delete a photo you took, delete it in the Vacato gallery. It is also removed from your Photos library.',
-        'To remove everything Vacato stored on your iPhone, delete the app. Photos already saved in your Photos library stay there until you delete them.',
+        'To delete a photo you took, delete it in the Poto gallery. It is also removed from your Photos library.',
+        'To remove everything Poto stored on your iPhone, delete the app. Photos already saved in your Photos library stay there until you delete them.',
       ],
     },
     {
@@ -101,7 +101,7 @@ export const privacy = {
       title: 'Changes to this policy',
       icon: 'refresh',
       paragraphs: [
-        'If we change how Vacato handles data, we will update this page and the “Last updated” date.',
+        'If we change how Poto handles data, we will update this page and the “Last updated” date.',
       ],
     },
     {

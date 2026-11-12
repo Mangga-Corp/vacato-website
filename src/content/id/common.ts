@@ -2,10 +2,10 @@ import type { CommonContent } from '../types'
 
 export const common = {
   skipToContent: 'Langsung ke konten',
-  appIconAlt: 'Ikon aplikasi Vacato',
+  appIconAlt: 'Ikon aplikasi Poto',
   nav: {
     ariaLabel: 'Navigasi utama',
-    homeAriaLabel: 'Vacato, ke beranda',
+    homeAriaLabel: 'Poto, ke beranda',
     features: 'Fitur',
     support: 'Bantuan',
     privacy: 'Privasi',
@@ -28,10 +28,10 @@ export const common = {
   },
   appStore: {
     comingSoon: 'Segera hadir di App Store',
-    badgeAlt: 'Unduh Vacato di App Store',
+    badgeAlt: 'Unduh Poto di App Store',
   },
   phone: {
-    placeholderLabel: 'Tangkapan layar aplikasi Vacato',
+    placeholderLabel: 'Tangkapan layar aplikasi Poto',
   },
   footer: {
     navAriaLabel: 'Navigasi footer',

@@ -1,6 +1,6 @@
 import type { ThemePreference } from './ThemeContext'
 
-const STORAGE_KEY = 'vacato-theme'
+const STORAGE_KEY = 'poto-theme'
 
 export function readThemePreference(): ThemePreference {
   try {

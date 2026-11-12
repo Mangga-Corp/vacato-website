@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://vacato.vercel.app/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://vacato.vercel.app/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://vacato.vercel.app/id"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://vacato.vercel.app/"/>
+    <loc>https://poto.vercel.app/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://poto.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://poto.vercel.app/id"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://poto.vercel.app/"/>
   </url>
   <url>
-    <loc>https://vacato.vercel.app/id</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://vacato.vercel.app/"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://vacato.vercel.app/id"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://vacato.vercel.app/"/>
+    <loc>https://poto.vercel.app/id</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://poto.vercel.app/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://poto.vercel.app/id"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://poto.vercel.app/"/>
   </url>
   <url>
-    <loc>https://vacato.vercel.app/support</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://vacato.vercel.app/support"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://vacato.vercel.app/id/support"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://vacato.vercel.app/support"/>
+    <loc>https://poto.vercel.app/support</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://poto.vercel.app/support"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://poto.vercel.app/id/support"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://poto.vercel.app/support"/>
   </url>
   <url>
-    <loc>https://vacato.vercel.app/id/support</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://vacato.vercel.app/support"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://vacato.vercel.app/id/support"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://vacato.vercel.app/support"/>
+    <loc>https://poto.vercel.app/id/support</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://poto.vercel.app/support"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://poto.vercel.app/id/support"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://poto.vercel.app/support"/>
   </url>
   <url>
-    <loc>https://vacato.vercel.app/privacy</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://vacato.vercel.app/privacy"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://vacato.vercel.app/id/privacy"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://vacato.vercel.app/privacy"/>
+    <loc>https://poto.vercel.app/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://poto.vercel.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://poto.vercel.app/id/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://poto.vercel.app/privacy"/>
   </url>
   <url>
-    <loc>https://vacato.vercel.app/id/privacy</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://vacato.vercel.app/privacy"/>
-    <xhtml:link rel="alternate" hreflang="id" href="https://vacato.vercel.app/id/privacy"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://vacato.vercel.app/privacy"/>
+    <loc>https://poto.vercel.app/id/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://poto.vercel.app/privacy"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://poto.vercel.app/id/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://poto.vercel.app/privacy"/>
   </url>
 </urlset>

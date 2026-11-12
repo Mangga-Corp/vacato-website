@@ -4,21 +4,21 @@ export const home = {
   hero: {
     headline: 'Get photographed your way.',
     subheadline:
-      'Choose a few photos you love. Vacato learns your style on your iPhone, then guides whoever holds the camera, one simple step at a time.',
+      'Choose a few photos you love. Poto learns your style on your iPhone, then guides whoever holds the camera, one simple step at a time.',
     screenshotAlt:
-      'The Vacato camera showing a single instruction that helps the photographer frame the shot.',
+      'The Poto camera showing a single instruction that helps the photographer frame the shot.',
   },
   features: {
     eyebrow: 'Features',
     heading: 'Built for the moment you hand over your phone',
     intro:
-      'Friends and strangers rarely shoot the way you’d like. Vacato tells them exactly what to adjust.',
+      'Friends and strangers rarely shoot the way you’d like. Poto tells them exactly what to adjust.',
     items: [
       {
         icon: 'images',
         title: 'Learns from your favorite photos',
         description:
-          'Pick 3 to 50 photos of yourself that you love. Vacato studies how close, how high, and how tilted they were shot.',
+          'Pick 3 to 50 photos of yourself that you love. Poto studies how close, how high, and how tilted they were shot.',
       },
       {
         icon: 'navigation',
@@ -36,7 +36,7 @@ export const home = {
         icon: 'armchair',
         title: 'Standing or sitting',
         description:
-          'Vacato notices when you sit down and switches to a full-body shot. You can also choose Full body, 3/4, or Half body yourself.',
+          'Poto notices when you sit down and switches to a full-body shot. You can also choose Full body, 3/4, or Half body yourself.',
       },
       {
         icon: 'sliders',
@@ -48,7 +48,7 @@ export const home = {
         icon: 'wand',
         title: 'Gallery and light touch-ups',
         description:
-          'See your Vacato photos in one place. Try five looks or fine-tune with sliders. Edits are saved as a new photo, so the original stays untouched.',
+          'See your Poto photos in one place. Try five looks or fine-tune with sliders. Edits are saved as a new photo, so the original stays untouched.',
       },
     ],
   },
@@ -59,7 +59,7 @@ export const home = {
       {
         title: 'Choose your favorite photos',
         description:
-          'Pick at least three photos of yourself and give your style a name. Vacato reads them on your iPhone and shows you a style card.',
+          'Pick at least three photos of yourself and give your style a name. Poto reads them on your iPhone and shows you a style card.',
       },
       {
         title: 'Hand over your phone',
@@ -76,7 +76,7 @@ export const home = {
   privacy: {
     eyebrow: 'Privacy',
     heading: 'Your photos stay on your iPhone.',
-    body: 'Vacato studies your photos right on your device. They are never uploaded, and there is nothing to sign up for.',
+    body: 'Poto studies your photos right on your device. They are never uploaded, and there is nothing to sign up for.',
     points: [
       'Photos are analyzed on your iPhone, not on a server',
       'No account or sign-up',
@@ -87,6 +87,6 @@ export const home = {
   },
   finalCta: {
     heading: 'Let anyone take your photo your way.',
-    body: 'Vacato is made for trips, outings, and every time you ask someone to take your picture.',
+    body: 'Poto is made for trips, outings, and every time you ask someone to take your picture.',
   },
 } satisfies HomeContent

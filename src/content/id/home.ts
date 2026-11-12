@@ -4,21 +4,21 @@ export const home = {
   hero: {
     headline: 'Difoto sesuai selera Anda.',
     subheadline:
-      'Pilih beberapa foto favorit Anda. Vacato mempelajari gaya Anda langsung di iPhone, lalu memandu siapa pun yang memegang kamera, satu langkah sederhana setiap kali.',
+      'Pilih beberapa foto favorit Anda. Poto mempelajari gaya Anda langsung di iPhone, lalu memandu siapa pun yang memegang kamera, satu langkah sederhana setiap kali.',
     screenshotAlt:
-      'Kamera Vacato menampilkan satu instruksi yang membantu fotografer menentukan framing foto.',
+      'Kamera Poto menampilkan satu instruksi yang membantu fotografer menentukan framing foto.',
   },
   features: {
     eyebrow: 'Fitur',
     heading: 'Dibuat untuk saat Anda menyerahkan ponsel ke orang lain',
     intro:
-      'Teman atau orang asing jarang memotret persis seperti yang Anda mau. Vacato memberi tahu mereka apa yang perlu diatur.',
+      'Teman atau orang asing jarang memotret persis seperti yang Anda mau. Poto memberi tahu mereka apa yang perlu diatur.',
     items: [
       {
         icon: 'images',
         title: 'Belajar dari foto favorit Anda',
         description:
-          'Pilih 3 sampai 50 foto diri Anda yang paling disukai. Vacato mempelajari seberapa dekat, setinggi apa, dan semiring apa foto-foto itu diambil.',
+          'Pilih 3 sampai 50 foto diri Anda yang paling disukai. Poto mempelajari seberapa dekat, setinggi apa, dan semiring apa foto-foto itu diambil.',
       },
       {
         icon: 'navigation',
@@ -36,7 +36,7 @@ export const home = {
         icon: 'armchair',
         title: 'Berdiri atau duduk',
         description:
-          'Vacato menyadari saat Anda duduk dan otomatis beralih ke foto seluruh badan. Anda juga bisa memilih sendiri: Full body, 3/4, atau Half body.',
+          'Poto menyadari saat Anda duduk dan otomatis beralih ke foto seluruh badan. Anda juga bisa memilih sendiri: Full body, 3/4, atau Half body.',
       },
       {
         icon: 'sliders',
@@ -48,7 +48,7 @@ export const home = {
         icon: 'wand',
         title: 'Galeri dan sentuhan ringan',
         description:
-          'Lihat semua foto Vacato di satu tempat. Coba lima look atau atur sendiri dengan slider. Hasil edit disimpan sebagai foto baru, jadi foto aslinya tetap utuh.',
+          'Lihat semua foto Poto di satu tempat. Coba lima look atau atur sendiri dengan slider. Hasil edit disimpan sebagai foto baru, jadi foto aslinya tetap utuh.',
       },
     ],
   },
@@ -59,7 +59,7 @@ export const home = {
       {
         title: 'Pilih foto favorit Anda',
         description:
-          'Pilih minimal tiga foto diri Anda dan beri nama untuk gaya Anda. Vacato membacanya langsung di iPhone, lalu menampilkan kartu gaya Anda.',
+          'Pilih minimal tiga foto diri Anda dan beri nama untuk gaya Anda. Poto membacanya langsung di iPhone, lalu menampilkan kartu gaya Anda.',
       },
       {
         title: 'Serahkan ponsel Anda',
@@ -76,7 +76,7 @@ export const home = {
   privacy: {
     eyebrow: 'Privasi',
     heading: 'Foto Anda tetap di iPhone Anda.',
-    body: 'Vacato mempelajari foto Anda langsung di perangkat. Foto tidak pernah diunggah, dan Anda tidak perlu mendaftar apa pun.',
+    body: 'Poto mempelajari foto Anda langsung di perangkat. Foto tidak pernah diunggah, dan Anda tidak perlu mendaftar apa pun.',
     points: [
       'Foto dianalisis di iPhone Anda, bukan di server',
       'Tanpa akun atau pendaftaran',
@@ -87,6 +87,6 @@ export const home = {
   },
   finalCta: {
     heading: 'Biarkan siapa pun memotret Anda sesuai selera.',
-    body: 'Vacato dibuat untuk liburan, jalan-jalan, dan setiap kali Anda meminta tolong orang lain memotret Anda.',
+    body: 'Poto dibuat untuk liburan, jalan-jalan, dan setiap kali Anda meminta tolong orang lain memotret Anda.',
   },
 } satisfies HomeContent

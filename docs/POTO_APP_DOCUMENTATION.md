@@ -1,4 +1,4 @@
-# Dokumentasi Lengkap Aplikasi Vacato (codebase: GoPhoto)
+# Dokumentasi Lengkap Aplikasi Poto (codebase: GoPhoto)
 
 > Dokumen ini disusun dengan membaca seluruh source code repository (reverse-engineering), bukan dari asumsi.
 > Setiap klaim merujuk ke file di `gophoto/…`. Hal yang tidak bisa dipastikan dari kode ditandai **[PERLU KONFIRMASI]**.
@@ -11,7 +11,7 @@
 >   - ⛔ Belum diimplementasi (stub/TODO/UI kosong, atau ada di spesifikasi tetapi tidak ada di kode)
 >   - 🗑️ Dead code (tidak dipakai di mana pun)
 > - **Catatan penamaan:**
->   - Nama tampilan app adalah **"Vacato"** (`INFOPLIST_KEY_CFBundleDisplayName`).
+>   - Nama tampilan app adalah **"Poto"** (`INFOPLIST_KEY_CFBundleDisplayName`).
 >   - Nama project/target/folder adalah **gophoto/GoPhoto**.
 >   - Bundle id yang sebenarnya **`co.mango.gophoto`** (bukan `com.…`).
 >   - Beberapa teks UI dan pesan error masih menyebut "GoPhoto".
@@ -36,9 +36,9 @@
 
 ## 1. Ringkasan Eksekutif
 
-**Vacato** adalah aplikasi kamera iOS untuk **wisatawan / orang yang ingin difoto** ("vacationist", sesuai user story di `Docs/UserFlowMangga.jpg`). Masalah yang diselesaikan: saat liburan, kita sering meminta orang lain (teman atau orang asing) memotret kita, tetapi hasilnya jarang sesuai selera. Bisa terlalu jauh, sudut kamera salah, kepala terpotong, atau HP terlalu tinggi/rendah.
+**Poto** adalah aplikasi kamera iOS untuk **wisatawan / orang yang ingin difoto** ("vacationist", sesuai user story di `Docs/UserFlowMangga.jpg`). Masalah yang diselesaikan: saat liburan, kita sering meminta orang lain (teman atau orang asing) memotret kita, tetapi hasilnya jarang sesuai selera. Bisa terlalu jauh, sudut kamera salah, kepala terpotong, atau HP terlalu tinggi/rendah.
 
-Cara Vacato menyelesaikannya:
+Cara Poto menyelesaikannya:
 1. Pemilik HP memilih **3–50 foto dirinya yang ia sukai**.
 2. App **menganalisis foto-foto itu sepenuhnya di perangkat** (Vision + CoreML: DETR segmentation, Depth Anything V2, GeoCalib). Yang dipelajari: ukuran shot favorit, posisi subjek di frame, tinggi dan kemiringan kamera relatif mata, postur, kecerahan, dan blur background. Hasilnya sebuah **"preference"** dengan persona gaya (mis. "The Explorer").
 3. Saat sesi foto, HP diserahkan ke fotografer. Kamera memberi **panduan langkah demi langkah satu instruksi per waktu**: jarak ("Move closer/back") → tinggi HP ("Raise/Lower the phone") → kemiringan ("Tilt up/down") → "Take the photo now". Panduan ini dibantu animasi HP 3D, bar, haptic, dan auto-crop, supaya hasilnya meniru gaya foto referensi.
@@ -73,7 +73,7 @@ Value proposition utamanya adalah **"orang lain bisa memotret kita persis sesuai
 
 | Item | Nilai | Sumber |
 |---|---|---|
-| Display name | **Vacato** | `gophoto.xcodeproj/project.pbxproj → INFOPLIST_KEY_CFBundleDisplayName` |
+| Display name | **Poto** | `gophoto.xcodeproj/project.pbxproj → INFOPLIST_KEY_CFBundleDisplayName` |
 | Nama project / target / produk | `gophoto` (product `gophoto.app`, `productName = MyApp`) | `project.pbxproj` |
 | Bundle identifier | `co.mango.gophoto` | `PRODUCT_BUNDLE_IDENTIFIER` |
 | Versi | Marketing 1.3, build 5 | `MARKETING_VERSION`, `CURRENT_PROJECT_VERSION` |
@@ -1072,7 +1072,7 @@ String yang tampil ke user:
 
 ### 6.19 Galeri foto hasil jepretan
 
-- **Deskripsi:** Galeri bergaya app Photos yang hanya berisi foto hasil Vacato.
+- **Deskripsi:** Galeri bergaya app Photos yang hanya berisi foto hasil Poto.
   - Dibuka dari thumbnail di kiri shutter (`GalleryShortcutButton`), dengan transisi zoom.
   - Kamera berhenti selama galeri tampil.
   - Fitur: grid 5 kolom, filter per preferensi, urutan Newest/Oldest, tab Collections ("Albums & Styles"), Search, pilih banyak lalu hapus, pager layar penuh (share, edit, delete) dengan strip thumbnail.
@@ -1084,7 +1084,7 @@ String yang tampil ke user:
     - disk: `Caches/GalleryThumbnails-v2/` (JPEG q0.9, sisi panjang 640 px).
   - `ImageLoader` memakai `PHCachingImageManager`, membangun thumbnail dengan 3 paralel, dan fungsinya ditandai `@concurrent`.
   - Recent search disimpan di UserDefaults `gallery_recent_searches` (maks 6). Pencarian mencocokkan nama preferensi atau string tanggal.
-- **Hapus:** Di grid, dialog konfirmasi custom yang meniru teks iOS ("Allow “Vacato” to delete N photo(s)?") muncul lebih dulu, disusul alert sistem `PHAssetChangeRequest.deleteAssets`.
+- **Hapus:** Di grid, dialog konfirmasi custom yang meniru teks iOS ("Allow “Poto” to delete N photo(s)?") muncul lebih dulu, disusul alert sistem `PHAssetChangeRequest.deleteAssets`.
   - Foto **ikut terhapus dari Photos iPhone**.
   - Di pager hanya alert sistem.
   - Error: "Couldn't delete this photo. Please try again.".
@@ -1569,7 +1569,7 @@ erDiagram
   | **iCloud Photos** (via PhotoKit) | Mengunduh foto asli/thumbnail yang belum ada lokal (`isNetworkAccessAllowed = true`) | Saat memilih foto referensi, membuat thumbnail galeri, ekspor/share | ✅ |
   | Link web | `https://sunlitt.app`, WeatherKit legal attribution URL, teks lisensi Apache | Di `AcknowledgementsView` | 🗑️ tidak terjangkau |
 - **SunKit**, semua model CoreML, Vision, dan GeoCalib berjalan **100% on-device**.
-- Ide "AI API" eksternal tidak ada. Teks UI menegaskan "Your photos stay on this iPhone. Vacato analyses them here and never uploads them." (`PhotoSessionSetupView.swift`).
+- Ide "AI API" eksternal tidak ada. Teks UI menegaskan "Your photos stay on this iPhone. Poto analyses them here and never uploads them." (`PhotoSessionSetupView.swift`).
 
 ## 10. Permission, Privasi & Konfigurasi
 
@@ -1579,10 +1579,10 @@ Usage description di-generate dari `INFOPLIST_KEY_*` di `project.pbxproj`.
 
 | Permission | Usage description | Kapan & di mana diminta | Bila ditolak |
 |---|---|---|---|
-| Kamera (`NSCameraUsageDescription`) | "Vacato uses the camera so someone can take your photo for you." | Saat `CameraView` mulai (`CameraService.requestPermission` → `AVCaptureDevice.requestAccess`) | "Camera Access Needed" + Open Settings; dicek ulang saat app aktif kembali |
-| Photo Library baca/tulis (`NSPhotoLibraryUsageDescription`) | "Vacato shows the photos you’ve taken in its gallery" | (1) Saat "Add Your Photos" (`PHPhotoLibrary.requestAuthorization(for: .readWrite)` di `PhotoPreferencePickerFlow`); (2) saat menyimpan foto pertama (`PhotoLibraryService.save`); (3) saat membuka galeri (`GalleryViewModel.onAppear`) | Picker: alert Settings. Simpan: error, foto hilang. Galeri: "No Access to Photos". Akses limited didukung |
-| Photo Library add-only (`NSPhotoLibraryAddUsageDescription`) | "Vacato saves the photos you take to your iPhone photos library." | Tidak diminta terpisah (app selalu meminta `.readWrite`) | — |
-| Lokasi When-In-Use (`NSLocationWhenInUseUsageDescription`) | "Vacato uses your approximate location to work out where the sun is and to look up the weather, so it can suggest where to stand and how to light your photo. The location is never saved." | Didesain di `LocationService.currentLocation()` via `LightingCoordinator.run()`, yang **tidak pernah dipanggil** | Fitur diam |
+| Kamera (`NSCameraUsageDescription`) | "Poto uses the camera so someone can take your photo for you." | Saat `CameraView` mulai (`CameraService.requestPermission` → `AVCaptureDevice.requestAccess`) | "Camera Access Needed" + Open Settings; dicek ulang saat app aktif kembali |
+| Photo Library baca/tulis (`NSPhotoLibraryUsageDescription`) | "Poto shows the photos you’ve taken in its gallery" | (1) Saat "Add Your Photos" (`PHPhotoLibrary.requestAuthorization(for: .readWrite)` di `PhotoPreferencePickerFlow`); (2) saat menyimpan foto pertama (`PhotoLibraryService.save`); (3) saat membuka galeri (`GalleryViewModel.onAppear`) | Picker: alert Settings. Simpan: error, foto hilang. Galeri: "No Access to Photos". Akses limited didukung |
+| Photo Library add-only (`NSPhotoLibraryAddUsageDescription`) | "Poto saves the photos you take to your iPhone photos library." | Tidak diminta terpisah (app selalu meminta `.readWrite`) | — |
+| Lokasi When-In-Use (`NSLocationWhenInUseUsageDescription`) | "Poto uses your approximate location to work out where the sun is and to look up the weather, so it can suggest where to stand and how to light your photo. The location is never saved." | Didesain di `LocationService.currentLocation()` via `LightingCoordinator.run()`, yang **tidak pernah dipanggil** | Fitur diam |
 | Motion | Tidak memerlukan usage description (CoreMotion device motion) | `MotionHub` saat kamera tampil | — |
 
 Catatan: teks `NSPhotoLibraryUsageDescription` hanya menyebut galeri, padahal izin yang sama juga dipakai untuk memilih foto referensi. Ini berisiko saat App Review.
@@ -1696,7 +1696,7 @@ Gambar ilustrasi custom preference (`assetName` pada opsi) **tidak dibundel**, s
   - Artinya app efektif light-only di luar kamera.
 - **Localization:** tidak ada file `.xcstrings`/`.strings` dan tidak ada `String(localized:)`. Semua teks UI di-hardcode dalam **Bahasa Inggris** (satu bahasa).
   - Pengecualian: label galeri DEBUG (Bahasa Indonesia).
-  - Teks yang terlihat user kadang memakai nama "GoPhoto" alih-alih "Vacato".
+  - Teks yang terlihat user kadang memakai nama "GoPhoto" alih-alih "Poto".
 - **Accessibility:**
   - Ada sekitar 192 pemakaian API `accessibility*` (label, hint, identifier untuk UI test, `isModal`, `accessibilityHidden` untuk animasi dekoratif 3D).
   - Reduce Motion dihormati di animasi 3D guide, `AnalyzingViewController`, dan `StyleCardViewController`; **tidak** di dinding foto Welcome.
@@ -1795,7 +1795,7 @@ Konfigurasi & hardcode:
 - `CameraViewModel.swift:531-544`: `guideMode` dipaksa `.heightFirstCrop` di kedua mode. Nilai UserDefaults `guideMode` tidak berguna, dan mode A–F tidak terjangkau.
 - `CameraService.swift:281-284, 476-482`, `CameraPreviewView.swift:24-27`: rotasi 90° di-hardcode (hanya portrait).
 - `CameraService.swift:416`: hanya `.builtInWideAngleCamera`, dan min zoom di-clamp ke 1 (`:447`).
-- `CameraView.swift:82, 638`: teks yang terlihat user menyebut "GoPhoto", padahal display name "Vacato".
+- `CameraView.swift:82, 638`: teks yang terlihat user menyebut "GoPhoto", padahal display name "Poto".
 
 Kode mati:
 - Review/enhance: `CameraViewModel.swift:38-47, 1312-1355`, `CaptureReview.swift`, `CapturedPhotoView.swift`. `review` tidak pernah di-set, tetapi `PhotoEnhancer()` tetap diinstansiasi (`:46`).
@@ -1885,7 +1885,7 @@ Placeholder / UI palsu (`GalleryView.swift`):
 - `:881-883` Share kosong; `:891-893` Favorite kosong;
 - `:562-565` mic dekoratif;
 - `:418-426` "Recently Viewed" palsu;
-- `:20` copy "Let’s build up your gallery with the Vacato";
+- `:20` copy "Let’s build up your gallery with the Poto";
 - `:57` `isDeleting` tidak dipakai.
 
 Kualitas kode:

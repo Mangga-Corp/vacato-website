@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vacato.vercel.app/sitemap.xml
+Sitemap: https://poto.vercel.app/sitemap.xml

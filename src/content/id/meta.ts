@@ -1,24 +1,24 @@
 import type { MetaContent } from '../types'
 
 export const meta = {
-  siteName: 'Vacato',
+  siteName: 'Poto',
   home: {
-    title: 'Vacato: difoto sesuai selera Anda',
+    title: 'Poto: difoto sesuai selera Anda',
     description:
-      'Vacato mempelajari foto-foto favorit Anda langsung di iPhone, lalu memandu siapa pun yang memegang kamera agar hasil fotonya sesuai keinginan Anda.',
+      'Poto mempelajari foto-foto favorit Anda langsung di iPhone, lalu memandu siapa pun yang memegang kamera agar hasil fotonya sesuai keinginan Anda.',
   },
   support: {
-    title: 'Bantuan: Vacato',
+    title: 'Bantuan: Poto',
     description:
-      'Butuh bantuan dengan Vacato? Hubungi kami, laporkan bug, usulkan fitur, dan temukan jawaban atas pertanyaan umum.',
+      'Butuh bantuan dengan Poto? Hubungi kami, laporkan bug, usulkan fitur, dan temukan jawaban atas pertanyaan umum.',
   },
   privacy: {
-    title: 'Kebijakan Privasi: Vacato',
+    title: 'Kebijakan Privasi: Poto',
     description:
-      'Cara Vacato menangani data Anda. Foto Anda dianalisis di iPhone dan tidak pernah diunggah.',
+      'Cara Poto menangani data Anda. Foto Anda dianalisis di iPhone dan tidak pernah diunggah.',
   },
   notFound: {
-    title: 'Halaman tidak ditemukan: Vacato',
+    title: 'Halaman tidak ditemukan: Poto',
     description: 'Halaman ini tidak ditemukan.',
   },
 } satisfies MetaContent

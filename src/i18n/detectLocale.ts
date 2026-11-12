@@ -1,6 +1,6 @@
 import { DEFAULT_LOCALE, isLocale, type Locale } from './locales'
 
-const STORAGE_KEY = 'vacato-locale'
+const STORAGE_KEY = 'poto-locale'
 
 export function getStoredLocale(): Locale | null {
   try {
