@@ -119,3 +119,36 @@
 .menu-item {
   animation: menu-item-in 300ms var(--ease-soft) both;
 }
+
+/* App Store button: a soft light sweep across the pill on hover. */
+.cta-shine {
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.cta-shine::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(105deg, transparent 35%, rgb(255 255 255 / 0.22) 50%, transparent 65%);
+  transform: translateX(-120%);
+  transition: transform 700ms var(--ease-soft);
+}
+
+.cta-shine:hover::after {
+  transform: translateX(120%);
+}
+
+/* Small "live" dot next to the availability chip. */
+@keyframes cta-ping {
+  75%,
+  100% {
+    transform: scale(2.2);
+    opacity: 0;
+  }
+}
+
+.cta-ping {
+  animation: cta-ping 1.8s cubic-bezier(0, 0, 0.2, 1) infinite;
+}

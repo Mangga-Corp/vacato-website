@@ -38,8 +38,11 @@ export interface CommonContent {
     switchToLight: string
   }
   appStore: {
-    comingSoon: string
-    badgeAlt: string
+    ariaLabel: string
+    preLabel: string
+    label: string
+    availableNow: string
+    platforms: string
   }
   phone: {
     placeholderLabel: string

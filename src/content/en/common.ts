@@ -27,8 +27,11 @@ export const common = {
     switchToLight: 'Switch to light mode',
   },
   appStore: {
-    comingSoon: 'Coming soon to the App Store',
-    badgeAlt: 'Download Poto on the App Store',
+    ariaLabel: 'Download Poto on the App Store (opens in a new tab)',
+    preLabel: 'Download on the',
+    label: 'App Store',
+    availableNow: 'Now available on the App Store',
+    platforms: 'For iPhone and iPad · iOS 26.0 or later',
   },
   phone: {
     placeholderLabel: 'Poto app screenshot',

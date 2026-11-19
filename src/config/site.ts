@@ -4,10 +4,10 @@ export const site = {
   developer: 'Poto',
   /** Support email. Leave empty until ready: the UI shows a "coming soon" state. */
   supportEmail: '',
-  /** App Store URL. Leave empty to show "Coming soon". */
-  appStoreUrl: '',
+  /** App Store URL. */
+  appStoreUrl: 'https://apps.apple.com/id/app/poto-personalized-camera/id6828348581',
   /** Apple App ID (digits only). When set, adds the Smart App Banner meta tag. */
-  appleAppId: '',
+  appleAppId: '6828348581',
   /** Production origin, no trailing slash. */
   siteUrl: 'https://poto.vercel.app',
   appVersion: '1.3',

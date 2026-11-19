@@ -16,6 +16,9 @@
   --c-wash: rgb(108 48 166 / 0.07);
   --elev-sm: 0 1px 2px rgb(0 0 0 / 0.04);
   --elev-md: 0 8px 30px rgb(0 0 0 / 0.06);
+  /* Soft brand glow under the App Store button */
+  --elev-cta: 0 10px 28px -10px rgb(108 48 166 / 0.55);
+  --elev-cta-hover: 0 16px 36px -12px rgb(108 48 166 / 0.65);
 }
 
 [data-theme='dark'] {
@@ -34,6 +37,8 @@
   /* Dark mode: borders instead of shadows */
   --elev-sm: 0 0 0 1px var(--c-border);
   --elev-md: 0 0 0 1px var(--c-border);
+  --elev-cta: 0 10px 28px -12px rgb(201 166 235 / 0.35);
+  --elev-cta-hover: 0 16px 40px -12px rgb(201 166 235 / 0.5);
 }
 
 @theme inline {
@@ -49,6 +54,8 @@
   --color-accent-subtle: var(--c-accent-subtle);
   --shadow-sm: var(--elev-sm);
   --shadow-md: var(--elev-md);
+  --shadow-cta: var(--elev-cta);
+  --shadow-cta-hover: var(--elev-cta-hover);
 }
 
 @theme {

@@ -27,8 +27,11 @@ export const common = {
     switchToLight: 'Ganti ke mode terang',
   },
   appStore: {
-    comingSoon: 'Segera hadir di App Store',
-    badgeAlt: 'Unduh Poto di App Store',
+    ariaLabel: 'Unduh Poto di App Store (terbuka di tab baru)',
+    preLabel: 'Unduh di',
+    label: 'App Store',
+    availableNow: 'Kini tersedia di App Store',
+    platforms: 'Untuk iPhone dan iPad · iOS 26.0 atau lebih baru',
   },
   phone: {
     placeholderLabel: 'Tangkapan layar aplikasi Poto',

@@ -13,7 +13,7 @@ export function FinalCta() {
         <h2 className="text-h2">{finalCta.heading}</h2>
         <p className="mt-4 text-body-lg text-text-muted">{finalCta.body}</p>
         <div className="mt-8">
-          <AppStoreCta />
+          <AppStoreCta align="center" />
         </div>
       </Reveal>
     </Section>
