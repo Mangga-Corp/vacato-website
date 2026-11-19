@@ -89,7 +89,7 @@ export const support = {
       {
         question: 'I don’t see “Take the photo now”. Can I still take a photo?',
         answer:
-          'Yes, the shutter always works. The green message appears when distance, height, and tilt all match your style. If it doesn’t appear, make sure the person is in view, follow the instruction on screen, and hold the phone steady for a moment.',
+          'No, the shutter button is disabled until the “Take the photo now” guide appears, then it becomes enabled. The green message appears when distance, height, and tilt all match your style. If it doesn’t appear, make sure the person is in view, follow the instruction on screen, and hold the phone steady for a moment.',
       },
       {
         question: 'There are several people in view. Who does Poto guide?',
@@ -100,11 +100,6 @@ export const support = {
         question: 'How many photos do I need to create a style?',
         answer:
           'At least 3 and up to 50. Choose photos that clearly show you. Photos where no person can be found can’t be used.',
-      },
-      {
-        question: 'Can I edit the photos I take?',
-        answer:
-          'Yes. Open a photo in the gallery and tap Edit to try five looks or adjust it with sliders. Saving creates a new photo, and the original is never changed.',
       },
       {
         question: 'Do I need an account?',
@@ -177,7 +172,7 @@ export const support = {
       {
         icon: 'tablet-smartphone',
         label: 'Devices',
-        value: 'iPhone and iPad (iPhone in portrait orientation)',
+        value: 'iPhone only (portrait orientation)',
       },
       { icon: 'camera', label: 'Camera', value: 'Required, to guide and take photos' },
       {

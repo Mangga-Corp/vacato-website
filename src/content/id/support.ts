@@ -89,7 +89,7 @@ export const support = {
       {
         question: 'Pesan “Take the photo now” tidak muncul. Apakah saya tetap bisa memotret?',
         answer:
-          'Bisa, tombol shutter selalu berfungsi. Pesan hijau itu muncul ketika jarak, tinggi, dan kemiringan sudah sesuai dengan gaya Anda. Jika tidak muncul, pastikan orangnya terlihat di layar, ikuti instruksi yang tampil, lalu tahan ponsel dengan stabil sejenak.',
+          'Tidak, tombol shutter dinonaktifkan sampai panduan “Take the photo now” muncul, lalu tombolnya aktif kembali. Pesan hijau itu muncul ketika jarak, tinggi, dan kemiringan sudah sesuai dengan gaya Anda. Jika tidak muncul, pastikan orangnya terlihat di layar, ikuti instruksi yang tampil, lalu tahan ponsel dengan stabil sejenak.',
       },
       {
         question: 'Ada beberapa orang di layar. Siapa yang dipandu Poto?',
@@ -100,11 +100,6 @@ export const support = {
         question: 'Berapa banyak foto yang dibutuhkan untuk membuat sebuah gaya?',
         answer:
           'Minimal 3 dan maksimal 50. Pilih foto yang memperlihatkan Anda dengan jelas. Foto yang tidak memperlihatkan orang tidak bisa digunakan.',
-      },
-      {
-        question: 'Bisakah saya mengedit foto yang saya ambil?',
-        answer:
-          'Bisa. Buka foto di galeri lalu ketuk Edit untuk mencoba lima look atau mengaturnya dengan slider. Saat disimpan, hasilnya menjadi foto baru dan foto aslinya tidak pernah berubah.',
       },
       {
         question: 'Apakah saya perlu membuat akun?',
@@ -178,7 +173,7 @@ export const support = {
       {
         icon: 'tablet-smartphone',
         label: 'Perangkat',
-        value: 'iPhone dan iPad (iPhone dalam orientasi portrait)',
+        value: 'Hanya iPhone (orientasi portrait)',
       },
       { icon: 'camera', label: 'Kamera', value: 'Wajib, untuk memandu dan mengambil foto' },
       {

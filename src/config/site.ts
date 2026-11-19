@@ -10,7 +10,7 @@ export const site = {
   appleAppId: '6828348581',
   /** Production origin, no trailing slash. */
   siteUrl: 'https://poto.vercel.app',
-  appVersion: '1.3',
+  appVersion: '1.1',
   minIosVersion: '26.0',
   /** ISO date (YYYY-MM-DD) of the last privacy policy revision. */
   privacyLastUpdated: '2026-11-11',

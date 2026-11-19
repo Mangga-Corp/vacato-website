@@ -31,7 +31,7 @@ export const common = {
     preLabel: 'Download on the',
     label: 'App Store',
     availableNow: 'Now available on the App Store',
-    platforms: 'For iPhone and iPad · iOS 26.0 or later',
+    platforms: 'For iPhone · iOS 26.0 or later',
   },
   phone: {
     placeholderLabel: 'Poto app screenshot',

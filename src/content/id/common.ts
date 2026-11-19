@@ -31,7 +31,7 @@ export const common = {
     preLabel: 'Unduh di',
     label: 'App Store',
     availableNow: 'Kini tersedia di App Store',
-    platforms: 'Untuk iPhone dan iPad · iOS 26.0 atau lebih baru',
+    platforms: 'Untuk iPhone · iOS 26.0 atau lebih baru',
   },
   phone: {
     placeholderLabel: 'Tangkapan layar aplikasi Poto',
