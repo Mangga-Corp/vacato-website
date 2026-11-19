@@ -108,7 +108,7 @@ export const privacy = {
       title: 'Kontak',
       icon: 'mail',
       paragraphs: [
-        'Untuk pertanyaan seputar privasi, silakan gunakan informasi kontak di halaman Bantuan pada situs ini.',
+        'Untuk pertanyaan atau permintaan seputar privasi, kirimkan email ke alamat di bawah ini.',
       ],
     },
   ],

@@ -108,7 +108,7 @@ export const privacy = {
       title: 'Contact',
       icon: 'mail',
       paragraphs: [
-        'For privacy questions, please use the contact details on the Support page of this website.',
+        'For privacy questions or requests, email us at the address below.',
       ],
     },
   ],

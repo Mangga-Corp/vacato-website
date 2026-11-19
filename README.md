@@ -40,7 +40,7 @@ Non-text values (email, App Store URL, App ID, version, privacy date) are in `sr
 
 ## Go live checklist
 
-In `src/config/site.ts` fill `supportEmail`, `appStoreUrl`, `appleAppId`. Until then the site shows "Coming soon" and disables the mailto buttons. Review `privacy.ts` in both languages (`// TODO: review legal`).
+`src/config/site.ts` holds `supportEmail`, `appStoreUrl`, `appleAppId`. If `supportEmail` is emptied, the site shows "Coming soon" and disables the mailto buttons. Review `privacy.ts` in both languages (`// TODO: review legal`).
 
 ## Deploy to Vercel
 
