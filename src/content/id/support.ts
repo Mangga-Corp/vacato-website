@@ -8,6 +8,8 @@ export const support = {
     heading: 'Hubungi kami',
     emailLabel: 'Email',
     emailPending: 'Alamat email bantuan kami segera tersedia.',
+    copyEmail: 'Salin',
+    copied: 'Tersalin',
     responseTime: 'Kami biasanya membalas dalam 2 sampai 3 hari kerja.',
   },
   actions: {

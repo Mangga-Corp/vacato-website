@@ -46,7 +46,7 @@ export function PrivacyPage() {
                 <p className="mt-4 text-body">
                   <a
                     href={`mailto:${site.supportEmail}`}
-                    className="rounded-sm font-medium text-accent underline underline-offset-4 hover:text-accent-hover"
+                    className="rounded-sm font-semibold text-text transition-colors hover:text-accent"
                   >
                     {site.supportEmail}
                   </a>

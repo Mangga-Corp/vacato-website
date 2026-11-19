@@ -124,6 +124,8 @@ export interface SupportContent {
     heading: string
     emailLabel: string
     emailPending: string
+    copyEmail: string
+    copied: string
     responseTime: string
   }
   actions: {

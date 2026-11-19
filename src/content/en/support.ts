@@ -8,6 +8,8 @@ export const support = {
     heading: 'Contact us',
     emailLabel: 'Email',
     emailPending: 'Our support email address is coming soon.',
+    copyEmail: 'Copy',
+    copied: 'Copied',
     responseTime: 'We usually reply within 2 to 3 business days.',
   },
   actions: {
